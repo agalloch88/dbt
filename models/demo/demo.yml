@@ -32,6 +32,10 @@ models:
     description: "Final Order DBT Model"
   - name: session
     description: "Session DBT Model"
+  - name: concat_name
+    description: "Concat Name DBT Model"
+  - name: concat_address
+    description: "Concat Address DBT Model"
 
 sources:
   - name: employee
