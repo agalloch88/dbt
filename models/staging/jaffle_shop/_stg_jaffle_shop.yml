@@ -18,3 +18,9 @@ models:
                 values: ["completed", "shipped", "returned", "placed", "return_pending"]
                 config:
                   severity: warn
+      - name: customer_id
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('stg_jaffle_shop__customers')
+                field: customer_id
