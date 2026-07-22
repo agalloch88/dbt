@@ -2,7 +2,10 @@ sources:
   - name: jaffle_shop
     database: raw
     schema: jaffle_shop
-      config:
+    tables:
+      - name: customers
+      - name: orders
+        config:
           freshness:
             warn_after:
               count: 6
@@ -11,7 +14,3 @@ sources:
               count: 3
               period: day
           loaded_at_field: _etl_loaded_at
-    tables:
-      - name: customers
-      - name: orders
-        
