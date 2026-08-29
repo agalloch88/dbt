@@ -10,9 +10,9 @@ config-version: 2
 profile: 'default'
 
 vars:
-   target_db: GLUEDB
-   target_schema: PUBLIC
-   stage_name: GLUEDB.PUBLIC.GLUE_S3_STAGE
+   target_db: DEA_BATCH_SCD2
+   target_schema: RAW
+   stage_name: DEA_BATCH_SCD2.RAW.DEA_BATCH_SCD2_STAGE
 
 # These configurations specify where dbt should look for different types of files.
 # The `model-paths` config, for example, states that models in this project can be

@@ -1,0 +1,11 @@
+version: 2
+models:
+    - name: product_raw
+      description: "dbt model to create the product raw table"
+
+sources:
+    - name: product
+      database: DEA_BATCH_SCD2
+      schema: RAW
+      tables:
+        - name: PRODUCT_CP
