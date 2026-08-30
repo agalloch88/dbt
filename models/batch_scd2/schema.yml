@@ -7,6 +7,9 @@ models:
     - name: product_transformed
       description: "dbt model to create the product transformed table"
 
+    - name: product_snapshot
+      description: "dbt model to create the product snapshot table"
+
  
 
 sources:
