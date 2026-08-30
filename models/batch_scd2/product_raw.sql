@@ -1,4 +1,3 @@
-DBT product_raw.sql Model Code
 {{
 config
 (
